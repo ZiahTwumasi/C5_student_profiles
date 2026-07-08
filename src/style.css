@@ -32,12 +32,20 @@ header {
 }
 
 .profile-img {
+    display: block;
+    /* justify-content: center;
+    justify-items: center;
+    align-self: center; */
     width: 150px;
     height: 150px;
     border-radius: 50%;
     object-fit: cover;
-    margin-bottom: 15px;
+    object-position: top center;
+    /* margin-bottom: 15px; */
+    /* background-color: lightgray; */
+    /* padding:5px 0 0; */
     border: 3px solid #e0f2fe;
+    margin: 0 auto 15px auto;
 }
 
 .card h3 {
