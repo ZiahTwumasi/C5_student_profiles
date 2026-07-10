@@ -1,13 +1,14 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Our Class Open Source Gallery</title>
-    <link rel="stylesheet" href="src/style.css">
-</head>
-<body>
 
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Our Class Open Source Gallery</title>
+    <link rel="stylesheet" href="src/style.css" />
+</head>
+
+<body>
     <header>
         <h1>Class Contributor Gallery</h1>
         <p>Click a card to see a special greeting!</p>
@@ -15,55 +16,44 @@
 
     <!-- The Grid Container where cards are displayed -->
     <main class="gallery-grid">
+        <!-- EXAMPLE CARDS: Copy one of these container structure one at a time to add yours! -->
 
-        <!-- EXAMPLE CARDS: Copy one of these container structure to add yours! -->
         <!-- OPTION A EXAMPLE: Using Downloaded Image (local) -->
-        <div class="card" onclick="showMessage('Hi! I am Elpe. I love building web apps and working out!')">
-            <img src="images/Elpe.png" alt="Elpe's Avatar" class="profile-img">
-            <h3>Elpedia J. Arthur</h3>
-            <p class="role">Frontend Developer</p>
-            <div class="skills">
-                <span>HTML</span> <span>CSS</span> <span>Git</span>
-            </div>
-        </div> 
-
-        <!-- OPTION B EXAMPLE: Using GitHub Avatar -->
-        <div class="card" onclick="showMessage('Hi! I am Elpe. I love building web apps and working out!')">
-            <img src="https://avatars.githubusercontent.com/u/129404506?v=4" alt="Elpe's Avatar" class="profile-img">
+        <div class="card" onclick="
+          showMessage(
+            'Hi! I am Elpe. I love building web apps and working out!',
+          )
+        ">
+            <img src="images/Elpe.png" alt="Elpe's Avatar" class="profile-img" />
             <h3>Elpedia J. Arthur</h3>
             <p class="role">Frontend Developer</p>
             <div class="skills">
                 <span>HTML</span> <span>CSS</span> <span>Git</span>
             </div>
         </div>
-        
-        
-        <!-- NEXT STUDENT ADDS THEIR CARD BELOW THIS LINE -->
-         <div class="card" onclick="showMessage('Hi! I am Ayishetu. I love cooking!')">
-    <img src="https://avatars.githubusercontent.com/u/295819026?v=4" alt="Ayishetu's Avatar" class="profile-img">
-    <h3>Ayishetu Dedei Armah</h3>
-    <p class="role">Student</p>
-    <div class="skills">
-        <span>HTML</span> <span>CSS</span> <span>Git</span>
-    </div>
-</div>
 
-<div class="card" onclick="showMessage('Hi! I am Ayishetu. I love cooking!')">
-    <img src="images/Aiyshatu.jpg" alt="Ayishetu's Profile Picture" class="profile-img">
-    <h3>Ayishetu Dedei Armah</h3>
-    <p class="role">Student</p>
-    <div class="skills">
-        <span>HTML</span> <span>CSS</span> <span>Git</span>
-    </div>
-</div>
-<div class="card" onclick="showMessage('Hi! I am Prinncex. I eating banku!')">
-            <img src="images/Princess.jpg" alt="Prinncex's Avatar" class="profile-img">
+        <!-- OPTION B EXAMPLE: Using GitHub Avatar -->
+        <div class="card" onclick="
+          showMessage(
+            'Hi! I am Elpe. I love building web apps and working out!',
+          )
+        ">
+            <img src="https://avatars.githubusercontent.com/u/129404506?v=4" alt="Elpe's Avatar" class="profile-img" />
+            <h3>Elpedia J. Arthur</h3>
+            <p class="role">Frontend Developer</p>
+            <div class="skills">
+                <span>HTML</span> <span>CSS</span> <span>Git</span>
+            </div>
+        </div>
+          
+        <div class="card" onclick="showMessage('Hi! I am Prinncex. I eating banku!')">
+            <img src="images/Princess.jpg" alt="Prinncex's Avatar" class="profile-img" />
             <h3>Prinncex</h3>
             <p class="role">T.A</p>
             <div class="skills">
                 <span>HTML</span> <span>CSS</span> <span>Git</span>
             </div>
-        </div> 
+        </div>
 
         <div class="card" onclick="showMessage('Hi! I am Prinncex. I like ice cream!')">
     <img src="https://avatars.githubusercontent.com/u/122838092?v=4" alt="Prinncex's Profile Picture" class="profile-img">
@@ -74,7 +64,243 @@
     </div>
 </div>
 
-     <div class="card" onclick="showMessage('Hi! I am Linda Lamptey. [Add a fun fact here]!')">
+        <div class="card" onclick="showMessage('Hi! I am Ayishetu. I love cooking!')">
+            <img src="images/Aiyshatu.jpg" alt="Ayishetu's Profile Picture" class="profile-img" />
+            <h3>Ayishetu Dedei Armah</h3>
+            <p class="role">Student</p>
+            <div class="skills">
+                <span>HTML</span> <span>CSS</span> <span>Git</span>
+            </div>
+        </div>
+
+        <div class="card" onclick="showMessage('Hi! I am Ayishetu. I love cooking!')">
+            <img src="https://avatars.githubusercontent.com/u/295819026?v=4" alt="Ayishetu's Avatar"
+                class="profile-img" />
+            <h3>Ayishetu Dedei Armah</h3>
+            <p class="role">Student</p>
+            <div class="skills">
+                <span>HTML</span> <span>CSS</span> <span>Git</span>
+            </div>
+        </div>
+
+        <div class="card" onclick="showMessage('Hi! I am Maame Yaa. I am 5 feet 9 inches!')">
+            <img src="images/MaameYaa.jpg" alt="Maame Yaa's Avatar" class="profile-img" />
+            <h3>Maame Yaa</h3>
+            <p class="role">Student</p>
+            <div class="skills">
+                <span>HTML</span> <span>CSS</span> <span>Git</span>
+            </div>
+        </div>
+
+        <div class="card" onclick="showMessage('Hi! I am Maame Yaa. I am 5 feet 9 inches!')">
+            <img src="https://avatars.githubusercontent.com/u/295819148?s=400&u=8e0831bacfc22739f2dcc5956c55847b3bf3e1e6&v=4"
+                alt="[Maame Yaa]'s Profile Picture" class="profile-img" />
+            <h3>Maame Yaa</h3>
+            <p class="role">Student</p>
+            <div class="skills">
+                <span>HTML</span> <span>CSS</span> <span>Git</span>
+            </div>
+        </div>
+
+        <div class="card" onclick="showMessage('Hi! I am Thelma Opoku. I love cooking!')">
+            <img src="images/Thelma.jpg" alt="Thelma's Profile Picture" class="profile-img" />
+            <h3>Thelma Opoku</h3>
+            <p class="role">Student</p>
+            <div class="skills">
+                <span>HTML</span> <span>CSS</span> <span>Git</span>
+            </div>
+        </div>
+
+        <div class="card" onclick="showMessage('Hi! I am Thelma Opoku. I love reading!')">
+            <img src="https://avatars.githubusercontent.com/u/295840767?v=4" alt="Thelma's Avatar"
+                class="profile-img" />
+            <h3>Thelma Opoku</h3>
+            <p class="role">Student</p>
+            <div class="skills">
+                <span>HTML</span> <span>CSS</span> <span>Git</span>
+            </div>
+        </div>
+
+        <div class="card" onclick="
+          showMessage(
+            'Hi! I am Judith.I like fast cars-mustang and runny eggs!',
+          )
+        ">
+            <img src="images/Judith.jpg" alt="Judith's Profile Picture" class="profile-img" />
+            <h3>Judith K. Agudey</h3>
+            <p class="role">Psychologist & Communication Expert</p>
+            <div class="skills">
+                <span>HTML</span> <span>CSS</span> <span>Git</span>
+            </div>
+        </div>
+
+        <div class="card" onclick="
+          showMessage(
+            'Hi! I am UNO-CRYPTO4. I love video games-Justice League!',
+          )
+        ">
+            <img src="https://avatars.githubusercontent.com/u/295817841?v=4" alt="UNO-CRYPTO4's Avatar"
+                class="profile-img" />
+            <h3>UNO-CRYPTO4</h3>
+            <p class="role">Psychologist & Communication Expert</p>
+            <div class="skills">
+                <span>HTML</span> <span>CSS</span> <span>Git</span>
+            </div>
+        </div>
+
+        <div class="card" onclick="
+          showMessage('Hi! I am Akosua Owusua. I work best with good music!')
+        ">
+            <img src="images/Akosua.jpg" alt="Akosua Owusua's Profile Picture" class="profile-img" />
+            <h3>Akosua</h3>
+            <p class="role">Student</p>
+            <div class="skills">
+                <span>HTML</span> <span>CSS</span> <span>Git</span>
+            </div>
+        </div>
+
+        <div class="card" onclick="
+          showMessage(
+            'Hi! I am Akosua Owusua. I cannot resist cute puppies🐶 !',
+          )
+        ">
+            <img src="https://avatars.githubusercontent.com/u/295820446?v=4" alt="Akosua Owusua's Avatar"
+                class="profile-img" />
+            <h3>Akosua Owusua</h3>
+            <p class="role">Student</p>
+            <div class="skills">
+                <span>HTML</span> <span>CSS</span> <span>Git</span>
+            </div>
+        </div>
+
+        <div class="card" onclick="
+          showMessage('Hi! I am Mubaarakah. i like building businesses!')
+        ">
+            <img src="images/Mubarakah.jpg" alt="Mubaarakah's Profile Picture" class="profile-img" />
+            <h3>Mubaarakah Salwat Rashid</h3>
+            <p class="role">Founder of Thamani Cosmetics</p>
+            <div class="skills">
+                <span>HTML</span> <span>CSS</span> <span>Git</span>
+            </div>
+        </div>
+
+        <div class="card" onclick="showMessage('Hi! I am Emmanuella M Mensah. I like ice cream!')">
+            <img src="https://avatars.githubusercontent.com/u/295822872?v=4" alt="Emmanuella M Mensah's Profile Picture"
+                class="profile-img" />
+            <h3>Emmanuella M Mensah</h3>
+            <p class="role">student</p>
+            <div class="skills">
+                <span>HTML</span> <span>CSS</span> <span>Git</span>
+            </div>
+        </div>
+
+        <div class="card" onclick="
+          showMessage(
+            'Hi! I am Cleopatra El-Husseini. I have a melodious voice!',
+          )
+        ">
+            <img src="https://avatars.githubusercontent.com/u/295841222?v=4" alt="Cleopatra El-Husseini's Avatar"
+                class="profile-img" />
+            <h3>Cleopatra El-Husseini</h3>
+            <p class="role">Student</p>
+            <div class="skills">
+                <span>HTML</span> <span>CSS</span> <span>Git</span>
+            </div>
+        </div>
+
+        <div class="card" onclick="
+          showMessage(
+            'Hi! I am Cleopatra El-Husseini. I have a melodious voice!',
+          )
+        ">
+            <img src="images/cute girl.avif" class="profile-img" alt="Cleopatra El-Husseini's Profile Picture" />
+            <h3>Cleopatra El-Husseini</h3>
+            <p class="role">Student</p>
+            <div class="skills">
+                <span>HTML</span> <span>CSS</span> <span>Git</span>
+            </div>
+        </div>
+
+        <div class="card" onclick="
+          showMessage('Hi! I am Cynthia Aziaduvor. Living in the moment!')
+        ">
+            <img src="images/Cynthia.jpg" alt="Cynthia's Profile Picture" class="profile-img" />
+            <h3>Cynthia Aziaduvor</h3>
+            <p class="role">Student</p>
+            <div class="skills">
+                <span>HTML</span> <span>CSS</span> <span>Git</span>
+            </div>
+        </div>
+
+        <div class="card" onclick="
+          showMessage('Hi! I am Cynthia Aziaduvor. Just living in the moment!')
+        ">
+            <img src="https://avatars.githubusercontent.com/u/295818092?s=400&u=17312f9d3f0302476594745f6fd73813432ffc39&v=4"
+                alt="Cynthia's Avatar" class="profile-img" />
+            <h3>Cynthia Aziaduvor</h3>
+            <p class="role">Student</p>
+            <div class="skills">
+                <span>HTML</span> <span>CSS</span> <span>Git</span>
+            </div>
+        </div>
+
+        <div class="card" onclick="showMessage('Hi! I am Priscasia A.E Sebuabe. I am more than a conqueror!')">
+            <img src="images/Prisca.jpg" alt="Priscasia's Profile Picture" class="profile-img">
+            <h3>Priscasia</h3>
+            <p class="role">Student</p>
+            <div class="skills">
+                <span>HTML</span> <span>CSS</span> <span>Git</span>
+            </div>
+        </div>
+
+        <div class="card" onclick="showMessage('Hi! I am Priscasia A.E Sebuabe. I can do all things through Christ!')">
+            <img src="https://avatars.githubusercontent.com/u/76138217?s=400&u=b2c7235925ed2a6b1e1ea743610cd0a4128294d7&v=4"
+                alt="Priscasia's Avatar" class="profile-img">
+            <h3>Priscasia</h3>
+            <p class="role">Student</p>
+            <div class="skills">
+                <span>HTML</span> <span>CSS</span> <span>Git</span>
+            </div>
+        </div>
+
+        <div class="card" onclick="showMessage('Hi! I am Patience N.A Otoo. [I love taking on new challenges]!')">
+            <img src="images/Patience.jpg"
+                alt="[Mzpee]'s Avatar" class="profile-img">
+            <h3>Patience N.A Otoo</h3>
+            <p class="role">Aspiring Full Stack Developer</p>
+            <div class="skills">
+                <span>HTML</span> <span>CSS</span> <span>Git</span>
+            </div>
+        </div>
+
+        <div class="card" onclick="showMessage('Hi! I am Patience N.A Otoo. [I love taking on new challenges]!')">
+            <img src="https://avatars.githubusercontent.com/u/295817432?v=4" alt="[Mzpee]'s Avatar" class="profile-img">
+            <h3>Patience N.A Otoo</h3>
+            <p class="role">Aspiring Full Stack Developer</p>
+            <div class="skills">
+                <span>HTML</span> <span>CSS</span> <span>Git</span>
+            </div>
+        </div>
+
+        <div class="card" onclick="showMessage('Hi! I am Rejoice. My favourite food banku!')">
+            <img src="images/Rejoice.jpg" alt="Rejoice's Profile Picture" class="profile-img">
+            <h3>Rejoice Dzanku</h3>
+            <p class="role">Content creator</p>
+            <div class="skills">
+                <span>HTML</span> <span>CSS</span> <span>Git</span>
+            </div>
+        </div>
+
+<div class="card" onclick="showMessage('Hi! I am Rejoice. I love cooking!')">
+            <img src="https://avatars.githubusercontent.com/u/175615577?v=4" alt="Rejoice's Avatar" class="profile-img">
+            <h3>Rejoice Dzanku</h3>
+            <p class="role">Web developer</p>
+            <div class="skills">
+                <span>HTML</span> <span>CSS</span> <span>Git</span>
+            </div>
+        </div>
+      
+      <div class="card" onclick="showMessage('Hi! I am Linda Lamptey. [Add a fun fact here]!')">
     <img src="https://avatars.githubusercontent.com/u/295818675?v=4" alt="Linda Lamptey's Avatar" class="profile-img">
     <h3>Linda Lamptey</h3>
     <p class="role">[Your Role]</p>
@@ -87,8 +313,15 @@
     <h3>Linda Lamptey</h3>
     <p class="role">[Your Role]</p>
     <div class="skills">
+         <span>HTML</span> <span>CSS</span> <span>Git</span>
+            </div>
+        </div>
+       
+            <!-- NEXT STUDENT ADDS THEIR CARD BELOW THIS LINE -->
+          
     </main>
 
     <script src="src/script.js"></script>
 </body>
+
 </html>
